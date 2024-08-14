@@ -9,8 +9,8 @@ import { ToastrModule } from 'ngx-toastr';
   declarations: [],
   imports: [
     CommonModule,
-    BsDropdownModule.forRoot(), // Configure ngx-bootstrap dropdown globally
-    ToastrModule.forRoot({      // Configure ngx-toastr globally
+    BsDropdownModule.forRoot(), 
+    ToastrModule.forRoot({      
       positionClass: 'toast-bottom-right'
     }),
   ],
